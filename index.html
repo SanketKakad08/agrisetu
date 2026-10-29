@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriSetu | Mandi Rates</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            padding: 24px 16px;
+            color: #1e293b;
+        }
+
+        .container {
+            max-width: 420px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 26px;
+            color: #15803d;
+            margin-bottom: 6px;
+        }
+
+        header p {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .crop-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-top: 5px solid #16a34a;
+        }
+
+        .crop-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #15803d;
+            margin-bottom: 4px;
+        }
+
+        .mandi-name {
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 16px;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .price-row strong {
+            color: #0f172a;
+        }
+
+        .avg-price {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px dashed #cbd5e1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #16a34a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>AgriSetu</h1>
+            <p>Live Mandi Rates & Farmer Market</p>
+        </header>
+
+        <!-- Crop Card -->
+        <div class="crop-card">
+            <div class="crop-name">Onion (कांदा)</div>
+            <div class="mandi-name">Market: Sangamner</div>
+            
+            <div class="price-row">
+                <span>Min Rate:</span>
+                <strong>₹ 1,200 / Qtl</strong>
+            </div>
+
+            <div class="price-row">
+                <span>Max Rate:</span>
+                <strong>₹ 2,400 / Qtl</strong>
+            </div>
+
+            <div class="avg-price">
+                <span>Avg Rate:</span>
+                <span>₹ 1,850 / Qtl</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
